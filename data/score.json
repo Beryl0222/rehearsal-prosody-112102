@@ -16,6 +16,10 @@
       {
         "beat": "7:3",
         "can_start": true
+      },
+      {
+        "beat": "7:4",
+        "can_start": true
       }
     ],
     "shared": {}
