@@ -1,0 +1,170 @@
+[
+  {
+    "id": "B1",
+    "bar": 7,
+    "section": "前句",
+    "voice": "高声",
+    "slots": [
+      {
+        "beat": "7:1",
+        "can_start": true
+      },
+      {
+        "beat": "7:2",
+        "can_start": false
+      },
+      {
+        "beat": "7:3",
+        "can_start": true
+      }
+    ],
+    "shared": {}
+  },
+  {
+    "id": "B2",
+    "bar": 8,
+    "section": "问答",
+    "voice": "高声",
+    "slots": [
+      {
+        "beat": "8:1",
+        "can_start": true
+      },
+      {
+        "beat": "8:1+",
+        "can_start": true
+      },
+      {
+        "beat": "8:2",
+        "can_start": true
+      },
+      {
+        "beat": "8:3",
+        "can_start": false
+      },
+      {
+        "beat": "8:4",
+        "can_start": true
+      },
+      {
+        "beat": "8:4+",
+        "can_start": true
+      }
+    ],
+    "shared": {
+      "共同收音": [
+        "8:2",
+        "8:4"
+      ]
+    }
+  },
+  {
+    "id": "B3",
+    "bar": 8,
+    "section": "问答",
+    "voice": "低声",
+    "slots": [
+      {
+        "beat": "8:1",
+        "can_start": true
+      },
+      {
+        "beat": "8:2",
+        "can_start": false
+      },
+      {
+        "beat": "8:4",
+        "can_start": true
+      }
+    ],
+    "shared": {
+      "共同收音": [
+        "8:4"
+      ]
+    }
+  },
+  {
+    "id": "B4",
+    "bar": 9,
+    "section": "问答",
+    "voice": "高声",
+    "slots": [
+      {
+        "beat": "9:1",
+        "can_start": true
+      },
+      {
+        "beat": "9:2",
+        "can_start": true
+      },
+      {
+        "beat": "9:3",
+        "can_start": true
+      },
+      {
+        "beat": "9:4",
+        "can_start": true
+      },
+      {
+        "beat": "9:4+",
+        "can_start": true
+      }
+    ],
+    "shared": {
+      "换气重入": [
+        "9:1",
+        "9:2"
+      ]
+    }
+  },
+  {
+    "id": "B5",
+    "bar": 9,
+    "section": "问答",
+    "voice": "低声",
+    "slots": [
+      {
+        "beat": "9:1",
+        "can_start": false
+      },
+      {
+        "beat": "9:2",
+        "can_start": true
+      },
+      {
+        "beat": "9:3",
+        "can_start": true
+      },
+      {
+        "beat": "9:4",
+        "can_start": true
+      }
+    ],
+    "shared": {
+      "换气重入": [
+        "9:2"
+      ]
+    }
+  },
+  {
+    "id": "B6",
+    "bar": 10,
+    "section": "尾句",
+    "voice": "低声",
+    "slots": [
+      {
+        "beat": "10:1",
+        "can_start": true
+      },
+      {
+        "beat": "10:2",
+        "can_start": true
+      },
+      {
+        "beat": "10:3",
+        "can_start": true
+      }
+    ],
+    "shared": {}
+  }
+]

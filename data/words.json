@@ -1,0 +1,79 @@
+[
+  {
+    "id": "W1",
+    "voice": "高声",
+    "bars": [
+      7
+    ],
+    "text": "山那厢"
+  },
+  {
+    "id": "W2",
+    "voice": "高声",
+    "bars": [
+      8,
+      9
+    ],
+    "text": "莫唱山那厢，阿兄 hold on"
+  },
+  {
+    "id": "W3",
+    "voice": "低声",
+    "bars": [
+      8,
+      9
+    ],
+    "text": "山那厢，等一等"
+  },
+  {
+    "id": "W4",
+    "voice": "低声",
+    "bars": [
+      10
+    ],
+    "text": "阿兄笑"
+  },
+  {
+    "id": "NY1",
+    "kind": "pronunciation",
+    "surface": "那厢",
+    "region": "青岸甲调",
+    "syllables": [
+      "na",
+      "xiang"
+    ],
+    "stress": 2
+  },
+  {
+    "id": "NY2",
+    "kind": "pronunciation",
+    "surface": "那厢",
+    "region": "青岸乙调",
+    "syllables": [
+      "niang"
+    ],
+    "stress": 1
+  },
+  {
+    "id": "NY3",
+    "kind": "pronunciation",
+    "surface": "hold on",
+    "region": "en",
+    "syllables": [
+      "hold",
+      "on"
+    ],
+    "stress": 1
+  },
+  {
+    "id": "N4D",
+    "kind": "pronunciation",
+    "surface": "阿兄",
+    "region": "青岸乙调",
+    "syllables": [
+      "a",
+      "hiang"
+    ],
+    "stress": 2
+  }
+]
