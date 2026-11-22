@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=66"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hechang"
+version = "0.1.0"
+description = "声乐试唱的词格、合唱对齐与分谱交接工具"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "声乐研修排练组" }]
+
+[project.scripts]
+hechang = "hechang.cli:main"
+
+[tool.setuptools]
+packages = ["hechang"]
